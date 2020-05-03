@@ -1,0 +1,8 @@
+127.0.0.1 - - [04/Apr/2020:15:52:43 +0800] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:52:44 +0800] "GET /JspProject/_HW_Jsp/userLogin.jsp HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:52:59 +0800] "POST /JspProject/_HW_Jsp/TestUserLoginVerifiedServlet2_PlayerJB_New HTTP/1.1" 200 36
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:53:02 +0800] "GET /JspProject/_HW_Jsp/getCardClick2_includeClickProcess_circleServlet.jsp HTTP/1.1" 200 1615
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:53:12 +0800] "POST /JspProject/_HW_Jsp/TestEachClickSetCardServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:53:12 +0800] "GET /JspProject/_HW_Jsp/resultPage.jsp HTTP/1.1" 200 1385
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:53:26 +0800] "POST /JspProject/_HW_Jsp/TestUserLoginVerifiedServlet2_PlayerJB_New HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Apr/2020:15:53:26 +0800] "GET /JspProject/_HW_Jsp/getCardClick2_includeClickProcess_circleServlet.jsp HTTP/1.1" 200 1616

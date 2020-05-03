@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Upload File</title>
+</head>
+<body>
+  <h2>Upload File System</h2>
+  <!-- form 的 action =  "" 的部分：
+  	如果 action="uploadFile.do" => 會把檔案存到 web.xml裡面註冊  <url-pattern>/uploadFile.do</url-pattern> 的  <location>c:/temp</location>
+  	如果 action="TestUploadFileServletEx1.action" => 會把檔案存到  TestUploadFileServletEx1 的 @MultipartConfig(location="c:/temp/files")
+  		 @MultipartConfig(location="c:/temp/files")
+  		 @WebServlet("/TestUploadFileServletEx1.action")
+  -->
+  <form action="TestUploadFileServletEx1.action" method="POST" enctype="multipart/form-data">
+    Please choose your upload file:<br/>
+    <input type="file" name="multimedia" multiple="multiple"/><br/>
+    <p>
+    <input type="submit" value="upload"/> 
+    </p>
+  </form>
+</body>
+</html>
+

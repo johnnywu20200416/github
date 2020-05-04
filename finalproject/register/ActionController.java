@@ -301,9 +301,9 @@ public class ActionController {
 	}
 	
 	public void sendEmail(String action, String email, String code) {
-		String from = "johnnyproject.test@gmail.com";
-	    final String username = "johnnyproject.test";
-	    final String password = "uexcrypqlhywruhf";
+		String from = "****************@gmail.com";
+	    final String username = "**************";
+	    final String password = "*****************";
 	    String host = "smtp.gmail.com";
 	    
 	    Properties props = new Properties();
